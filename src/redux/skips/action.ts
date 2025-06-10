@@ -5,7 +5,6 @@ import { API_URL } from "@/constants";
 export const fetchSkipData = createAsyncThunk(
   "skips/fetchSkipData",
   async () => {
-    await new Promise((resolve) => setTimeout(resolve, 2000));
     const response = await fetch(API_URL);
 
     if (!response.ok) {
