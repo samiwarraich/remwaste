@@ -23,7 +23,7 @@ A skip container listing interface providing users with detailed search function
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/remwaste.git
+git clone https://github.com/samiwarraich/remwaste.git
 cd remwaste
 ```
 
